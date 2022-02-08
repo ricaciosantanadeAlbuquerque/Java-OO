@@ -1,9 +1,5 @@
 package polimorfismo.sobreposicao;
 
-
-import polimorfismo.sobreposicao.Animal;
-
-
 public class Mamifero extends Animal {
     private String corPelo;
     @Override

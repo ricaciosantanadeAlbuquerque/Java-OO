@@ -15,6 +15,11 @@ public class EscopoDeClasseEscopoDeInstancia {
           System.out.println("O numero "+celular1.numero+" dá empresa "+ celular1.empresa);
           System.out.println("O numero "+celular2.numero+" dá empresa "+ celular2.empresa);
           System.out.println("O numero "+celular3.numero+" dá empresa "+ celular3.empresa);
+          
+          /*O atributo empresa possui o modificador "static"
+          * isso faz com que esse atributo possua  em sí o escopo de classe e não o de instância
+          *  não importa quantos objetos sejam gerados aparti desta classe,
+          * o atributo empresa possuirá o mesmo valor sempre.*/
     }
     
 }
